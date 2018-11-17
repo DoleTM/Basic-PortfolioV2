@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-image: url(../images/gravel.png);
+}
+
+.container {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    margin: auto;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    color: black;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    position: absolute;
+    width: 100%;
+}
+
+#bio-image {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin: 0 20px 0 20px;
+}
+
+#name {
+    background-color: #4aaaa5;
+    float: left;
+    box-sizing: content-box;
+    color: #ffffff;
+    padding: 20px;
+    margin: 24px 0px 0px 186px;
+}
+
+nav {
+    scroll-behavior: smooth;
+    float: right;
+    width: 400px;
+    margin-top: 70px;
+}
+
+#about {
+    float: right;
+}
+
+#portfolio {
+    float: right;
+}
+
+#contact {
+    float: right;
+}
+
+h2 {
+    color: #4aaaa5;
+    margin-top: 130px;
+    padding-top: 40px;
+    text-indent: 20px;
+}
+
+hr {
+    width: 920px;
+}
+
+.page1 {
+    display: block;
+    box-sizing: 80%;
+}
+
+p {
+    width:900px;
+
+}
+
+.p3 {
+    width: 900px;
+    margin: auto;
+}
+
+.p4 {
+    width: 900px;
+    margin: 20px 30px 20px 30px;
+}
+
+.page2 {
+    flex-wrap: wrap;
+}
+
+.page3 {
+    flex-wrap: wrap;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    width: 100%;
+    align-content: center;
+    background-color: #666666;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.clearfix {
+    content: normal;
+    display: block;
+    clear: both;
+}
